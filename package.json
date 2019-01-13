@@ -2,7 +2,8 @@
     "name": "jest-test-language-support",
     "displayName": "jest-test-language-support",
     "description": "Jest Test Language Support provides syntax highlighting for your Jest test files.",
-    "version": "0.1.0",
+    "version": "1.0.0",
+    "publisher": "dplain",
     "engines": {
         "vscode": "^1.30.0"
     },
@@ -38,5 +39,12 @@
             }
         ]
     },
-    "dependencies": {}
+    "homepage": "https://github.com/dplain90/jest-test-language-support",
+    "bugs": {
+        "url": "https://github.com/dplain90/jest-test-language-support/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dplain90/jest-test-language-support.git"
+    }
 }
