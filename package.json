@@ -1,0 +1,42 @@
+{
+    "name": "jest-test-language-support",
+    "displayName": "jest-test-language-support",
+    "description": "Jest Test Language Support provides syntax highlighting for your Jest test files.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "jest-test",
+                "aliases": [
+                    "Jest Test",
+                    "jest-test"
+                ],
+                "extensions": [
+                    ".spec.js",
+                    ".spec.jsx",
+                    ".spec.ts",
+                    ".spec.tsx",
+                    ".test.js",
+                    ".test.jsx",
+                    ".test.ts",
+                    ".test.tsx"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "jest-test",
+                "scopeName": "source.jest.test",
+                "path": "./syntaxes/jest-test.tmLanguage.json"
+            }
+        ]
+    },
+    "dependencies": {}
+}
