@@ -18,10 +18,8 @@ describe('sample jest test syntax', () => {
     })
 
     it('sample it block', () => {
-        expect(sampleVariable).not.toBeTruthy(() => {
-            console.log('test function')
-        })
-        expect(sampleVariable).toBe(false)
+        expect(sampleVariable).not.toBeTruthy()
+        expect(sampleVariable.length < 3).toBe(false)
         expect(sampleVariable).toMatchSnapshot()
     })
 })
