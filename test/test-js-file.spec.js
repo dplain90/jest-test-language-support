@@ -1,3 +1,4 @@
+
 // These are for use in the extension debugger only to check scope changes 
 describe('sample jest test syntax', () => {
     let sampleVariable
