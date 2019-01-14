@@ -2,6 +2,8 @@
 
 Jest Test Language Support provides syntax highlighting for your Jest global & lifecycle functions, and matchers. 
 
+ ![Example Test Syntax Highlighting](https://raw.githubusercontent.com/dplain90/jest-test-language-support/master/examples/example-theme-config.png)
+
 ## Features
 -----------
 
@@ -31,7 +33,7 @@ Jest Test Language Support provides syntax highlighting for your Jest global & l
     } 
     ```
  ### Example Theme Config   
- ![Example Theme Config](https://raw.githubusercontent.com/dplain90/jest-test-language-support/master/example-theme-config.png)
+ ![Example Theme Config](https://raw.githubusercontent.com/dplain90/jest-test-language-support/master/examples/example-theme-config.png)
 
 ## Scope Selectors
 ------------------
