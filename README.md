@@ -11,7 +11,7 @@ Jest Test Language Support provides syntax highlighting for your Jest global & l
 ## How to Setup Custom Themes 
 -----------------------------
  
-1. Open VSCode User Settings in JSON  
+1. Open ```Preferences: Open Settings (JSON)``` from the Command Palette in VSCode
 
 2. Add custom styles to your theme of choice:
     ```json
