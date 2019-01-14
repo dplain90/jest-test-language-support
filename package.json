@@ -2,7 +2,7 @@
     "name": "jest-test-language-support",
     "displayName": "jest-test-language-support",
     "description": "Jest Test Language Support provides syntax highlighting for your Jest test files.",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "publisher": "dplain",
     "engines": {
         "vscode": "^1.30.0"
