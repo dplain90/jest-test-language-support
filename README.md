@@ -14,7 +14,7 @@ Jest Test Language Support provides syntax highlighting for your Jest global & l
 1. Open VSCode User Settings in JSON  
 
 2. Add custom styles to your theme of choice:
-    ```
+    ```json
     {
         "editor.tokenColorCustomizations": {
             "[ThemeNameGoesHere]": {
