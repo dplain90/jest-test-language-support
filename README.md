@@ -30,9 +30,8 @@ Jest Test Language Support provides syntax highlighting for your Jest global & l
         }
     } 
     ```
-
- *Example*
- ![Example Theme Config](https://github.com/dplain90/jest-test-language-support/example-theme-config.png?raw=true)
+ ### Example Theme Config   
+ ![Example Theme Config](https://raw.githubusercontent.com/dplain90/jest-test-language-support/master/example-theme-config.png)
 
 ## Scope Selectors
 ------------------
