@@ -2,7 +2,7 @@
     "name": "jest-test-language-support",
     "displayName": "Jest Test Language Support",
     "description": "Jest Test Language Support provides syntax highlighting for your Jest test files.",
-    "version": "1.3.0",
+    "version": "1.30.1",
     "publisher": "dplain",
     "galleryBanner": {
         "color": "#0000FF",
