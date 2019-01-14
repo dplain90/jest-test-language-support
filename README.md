@@ -2,17 +2,17 @@
 
 Jest Test Language Support provides syntax highlighting for your Jest global & lifecycle functions, and matchers. 
 
- ![Example Test Syntax Highlighting](https://raw.githubusercontent.com/dplain90/jest-test-language-support/master/examples/example-theme-config.png)
+ ![Example Test Syntax Highlighting](https://raw.githubusercontent.com/dplain90/jest-test-language-support/master/examples/syntax-highlighting-example.png)
 
-## Features
------------
+Features
+========
 
 - Syntax highlighting for Jest test files  
 - Supports `.spec` & `.test` for JS, JSX, Typescript
 
-## How to Setup Custom Themes 
------------------------------
- 
+How to Setup Custom Themes 
+==========================
+
 1. Open ```Preferences: Open Settings (JSON)``` from the Command Palette in VSCode
 
 2. Add custom styles to your theme of choice:
@@ -35,8 +35,8 @@ Jest Test Language Support provides syntax highlighting for your Jest global & l
  ### Example Theme Config   
  ![Example Theme Config](https://raw.githubusercontent.com/dplain90/jest-test-language-support/master/examples/example-theme-config.png)
 
-## Scope Selectors
-------------------
+Scope Selectors
+===============
 
 Below is a list of of scope selectors that can be used to set custom syntax color and font style.  
 
@@ -58,8 +58,9 @@ if you want to learn more about TextMate scope and selectors
   - All matchers listed <https://jestjs.io/docs/en/expect>, that start with a `.` are covered in `jest-matcher.[name]` 
 
 
-## Related Links
-----------------
+Related Links
+=============
+
  [Jest Test Language Support - VSMarketplace](https://marketplace.visualstudio.com/items?itemName=dplain.jest-test-language-support)  
  [vscode-jest](https://github.com/jest-community/vscode-jest)  
  [Jest Snapshot Language Support](https://github.com/tlent/jest-snapshot-language-support)  
