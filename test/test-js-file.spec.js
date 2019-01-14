@@ -1,3 +1,4 @@
+// These are for use in the extension debugger only to check scope changes 
 describe('sample jest test syntax', () => {
     let sampleVariable
     beforeAll(() => {
@@ -16,9 +17,10 @@ describe('sample jest test syntax', () => {
     })
 
     it('sample it block', () => {
-        expect(sampleVariable).toBeTruthy()
-        expect(sampleVariable).toContain('s')
-        expect(sampleVariable).toBe()
+        expect(sampleVariable).not.toBeTruthy(() => {
+            console.log('test function')
+        })
+        expect(sampleVariable).toBe(false)
         expect(sampleVariable).toMatchSnapshot()
     })
 })
